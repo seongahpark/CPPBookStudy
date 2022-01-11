@@ -1,7 +1,7 @@
 ---
 name: Custom issue template
 about: Issue 템플릿
-title: "[CPP]"
+title: "[Effective C++]"
 labels: question
 assignees: seongahpark
 
