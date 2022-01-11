@@ -35,3 +35,4 @@ c++ Book Study (Every Tue 9 p.m.)
 + commit message는 자유롭게 작성
 + push 완료 후, Git 홈페이지에서 pull request 신청!
 + merge는 스터디 직전 장이 합니다
++ [Pull Request 및 Issue 사용 방법](https://north-recorder-449.notion.site/PULL-REQUEST-97951f36e13f489a9c5f9d912e81d135)
