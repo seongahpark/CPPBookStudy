@@ -19,7 +19,7 @@ c++ Book Study (Every Tue 9 p.m.)
 ## 폴더 구조
 ```sh
 ├─책 이름
-│  ├─ Week주차 (세자리수로 부탁 ex. 011)
+│  ├─ Week주차 (두 자릿수로 부탁 ex. 01)
 │  │  │   X장_장 제목.md
 │  │  │   X장_issue.md
 │  │  │   X장_QnA.md
