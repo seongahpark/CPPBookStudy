@@ -1,5 +1,5 @@
 # CPP Book Study
-c++ Book Study (Every Tue 9 p.m.)
+c++ Book Study (Every Tue 11 p.m.)
 
 ## Contributor
 |이름|GitHub|
