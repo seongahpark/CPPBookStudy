@@ -1,5 +1,5 @@
 # CPP Book Study
-c++ Book Study (Every Tue 9 p.m.)
+c++ Book Study (Every Tue 11 p.m.)
 
 ## Contributor
 |이름|GitHub|
@@ -7,7 +7,6 @@ c++ Book Study (Every Tue 9 p.m.)
 |성아|[@seongahpark](https://github.com/seongahpark)|
 |현준|[@hhj3258](https://github.com/hhj3258)|
 |재현|[@Park52](https://github.com/Park52)|
-|호동|[@Hodong](https://github.com/Hodong)|
 
 1) 주 마다 정해온 분량의 책을 읽어 옴
 2) 예제 코드를 작성해서 git에 해당주차 폴더에서 각자 이름의 폴더를 생성 후 업로드 
