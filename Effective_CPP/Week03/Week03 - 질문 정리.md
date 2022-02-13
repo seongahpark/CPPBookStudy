@@ -23,7 +23,7 @@
 
 1. 해당 코드에서 문제점은 무엇인가?
 
-   ![pic1](D:\GITHUB\CPPBookStudy\Effective_CPP\Week03\pic1.png)
+   ![pic1](https://github.com/seongahpark/CPPBookStudy/blob/main/Effective_CPP/Week03/pic1.png)
    
    >순수 가상 함수인 logTransaction()을 Transaction 클래스의 생성자에서 호출하고 있다.
    >
@@ -36,9 +36,9 @@
 
 3. 중복 참조 문제와 예외 안전성과 관련된 코드이다. 두 코드의 차이점을 설명하시오
 
-   ![pic2](D:\GITHUB\CPPBookStudy\Effective_CPP\Week03\pic2.png)
+   ![pic2](https://github.com/seongahpark/CPPBookStudy/blob/main/Effective_CPP/Week03/pic2.png)
 
-   ![pic3](D:\GITHUB\CPPBookStudy\Effective_CPP\Week03\pic3.png)
+   ![pic3](https://github.com/seongahpark/CPPBookStudy/blob/main/Effective_CPP/Week03/pic3.png)
    
    > - 우측은 pb를 가리키는 *pOrig를 만들고 pOrig를 마지막에 삭제함으로써 예외 안전성 해결
    >- 우측은 원본을 복사해놓고 마지막에 그 메모리를 해제해주기 때문에 메모리 누수와 중복 참조 문제 해결
