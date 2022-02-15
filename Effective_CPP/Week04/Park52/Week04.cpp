@@ -4,7 +4,17 @@
 #define _SILENCE_TR1_NAMESPACE_DEPRECATION_WARNING
 #include <iostream>
 
-class Investment{};
+class Investment{
+public:
+	Investment()
+	{
+		std::cout << "Create Investment" << std::endl;
+	}
+	~Investment()
+	{
+		std::cout << "delete Investment" << std::endl;
+	}
+};
 class Example {
 public:
 	Example() {}
@@ -17,7 +27,7 @@ void item13()
 {
 	std::auto_ptr<Investment> pInv(new Investment());
 	//	Memory Leak!!!!
-	//	Investment* pInv = new Investment();
+	//Investment* pInv = new Investment();
 }
 
 void item14()
@@ -51,6 +61,15 @@ void item17()
 	//test(ex);
 }
 
+void auto_ptr_problem1(size_t n)
+{
+	std::auto_ptr<Investment> p1(new Investment);
+	std::auto_ptr<Investment> p2(new Investment[n]);
+	//
+	//	배열포인터에 auto_ptr을 사용하면 해제가 올바르게 되지 않습니다.
+	//
+}
+
 int main()
 {
 	_CrtMemState memoryState = { 0 };
@@ -59,19 +78,9 @@ int main()
 		item13();
 		item15();
 		item16();
+		auto_ptr_problem1(10);
 	}
 	_CrtMemDumpAllObjectsSince(&memoryState);
 
 	return 0;
 }
-
-// Run program: Ctrl + F5 or Debug > Start Without Debugging menu
-// Debug program: F5 or Debug > Start Debugging menu
-
-// Tips for Getting Started: 
-//   1. Use the Solution Explorer window to add/manage files
-//   2. Use the Team Explorer window to connect to source control
-//   3. Use the Output window to see build output and other messages
-//   4. Use the Error List window to view errors
-//   5. Go to Project > Add New Item to create new code files, or Project > Add Existing Item to add existing code files to the project
-//   6. In the future, to open this project again, go to File > Open > Project and select the .sln file
